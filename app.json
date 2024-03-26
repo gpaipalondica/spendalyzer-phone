@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Spendalyzer",
+    "slug": "expenditureos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon":"./assets/icon.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gpalondicar.expenditureos"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gpalondicar.expenditureosandroid"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "0f32217a-807f-497b-ace9-360b9984d177"
+      }
+    }
+  }
+}
